@@ -63,6 +63,7 @@ Because VS Code uses TypeScript to check our code, it uses **structural** type s
 
 ## Activating Type-Checking in VSCode
 
+* vscode settings -> "javascript.validate.enable": true
 * If your project already is set up for typescript, just add `"checkJs": true` to your `tsconfig.json`
 * Otherwise, add a comment at the top of your JS file
 ```js
